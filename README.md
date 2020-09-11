@@ -89,9 +89,9 @@ lien_internet***bf_url***Lien pour en savoir plus***40***255***http://*** *** **
     - bf_date_debut_evenement
     - bf_description_courte
     - paramètre possible : agenda="futur" modal="1" nbcol="1, 2, 3, 4 ou 6"
-  - **post-it.tpl.html** : il montre les données sous forme de post-it (3 couleurs aléatoires). Le contenu affiché dans le post-it est bf_titre et bf_aide (textelong).  Les champs nécessaires minimaux sont
+  - **post-it.tpl.html** : il montre les données sous forme de post-it (3 couleurs aléatoires). Le contenu affiché dans le post-it est bf_titre et bf_description (textelong).  Les champs nécessaires minimaux sont
     - bf_titre
-    - bf_aide
+    - bf_description
   - **blog.tpl.html** : Ce template permet d'afficher des actualités :
      - dernier aticle mis en avant
      - affiche la date et l'auteur del'article sous le titre
